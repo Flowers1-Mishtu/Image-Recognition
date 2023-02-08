@@ -1,0 +1,15 @@
+body{
+    background-color: lightpink;
+}
+.heading{
+    font-size: 25px;
+    color:coral;
+    width:80%;
+    font-family: fantasy;
+    font-style:bold;
+}
+#camera{
+    border:2px dotted black;
+    width:350px;
+    height:300px;
+}

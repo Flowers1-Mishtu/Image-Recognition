@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
 
    <link rel="stylesheet" href="style.css">
@@ -33,7 +33,7 @@
 
       <br>Rainbow High Doll(Jett)<br>
 
-      <br>Shopkins Soppie Donut<br>
+      <br>Shopkins Shoppie Donut<br>
     </b>
 <br>
       <label>Webcam View</label>
@@ -43,9 +43,11 @@
       <br><br>
 <button onclick="check();" class="btn btn-success">Identify Image</button>
 <br><br>
-
-      <p style="font-size: 22px;">Object :  </p>
-      <p style="font-size: 22px;">Accuracy :  </p>
+<div id="result"></div>
+<br><br>
+    
+   <p id="result_object_name" style="font-size: 22px;">Object :  </p>
+      <p id="result_object_accuracy" style="font-size: 22px;">Accuracy :  </p>
     </center>
 
   </div>
